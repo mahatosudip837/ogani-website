@@ -31,6 +31,22 @@ a{
 .btn2 a{
     color: #fff;
 }
+.fruit-section .owl-next span,
+.fruit-section .owl-prev span{
+    border: 1px solid #000;
+    padding: 10px;
+    background: rgb(199, 192, 192);
+}
+.fruit-section .owl-prev span{
+    position: absolute;
+    top: -43px;
+    right: 40px;
+}
+.fruit-section .owl-next span{
+    position: absolute;
+    top: -43px;
+    right: 5px;
+}
 
 @media screen and (max-width:1084px){
     .container{

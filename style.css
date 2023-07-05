@@ -359,7 +359,9 @@ nav ul li a.active {
   margin: 20px 0;
 }
 .latest-product-list {
+  padding-top: 20px;
   flex: 1 1 250px;
+  overflow-x: hidden;
 }
 .latest-product-list .latest-p-title {
   display: flex;
@@ -368,9 +370,6 @@ nav ul li a.active {
 }
 .latest-p-title h1 {
   font-size: 20px;
-}
-.latest-product-list .latest-p-title .arroy button {
-  padding: 10px;
 }
 .product-section .product-box {
   display: flex;

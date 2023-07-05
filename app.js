@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('.fruit').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -38,3 +38,13 @@ let searchInput = document.querySelector('.input-section .input input');
 search.addEventListener('click',()=>{
     searchInput.classList.toggle('search-input')
 })
+
+$(document).ready(function(){
+    $('.fruit-section').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:false,
+        items:1
+    })
+});
