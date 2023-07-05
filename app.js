@@ -38,10 +38,3 @@ let searchInput = document.querySelector('.input-section .input input');
 search.addEventListener('click',()=>{
     searchInput.classList.toggle('search-input')
 })
-
-
-window.onscroll = ()=>{
-    $(document).ready(function(){
-        $('nav').hide('slow');
-    });
-}

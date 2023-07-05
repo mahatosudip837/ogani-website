@@ -619,6 +619,9 @@ nav ul li a.active {
         background: var(--green-color);
         z-index: 100;
     }
+    nav.active{
+        display: none;
+    }
     nav ul{
         display: flex;
         flex-direction: column;
