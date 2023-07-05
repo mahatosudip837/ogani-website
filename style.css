@@ -126,12 +126,18 @@ nav ul li a.active {
   gap: 15px;
   padding-left: 20px;
   position: relative;
+  cursor: pointer;
 }
 .category .input-section .category-section i {
   padding-right: 30px;
   border-right: 1px solid #c0bcbc;
 }
-.category .input-section .category-section .category-drop{
+.country-drop{
+  position: relative;
+  cursor: pointer;
+}
+.category .input-section .category-section .category-drop,
+.country-drop .category-drop2{
   display: none;
   position: absolute;
   top: 100%;
@@ -145,10 +151,12 @@ nav ul li a.active {
   background: var(--green-color);
   transition: all .5s ease;
 }
-.category-drop li{
+.category-drop li,
+.category-drop2 li{
   padding: 10px;
 }
-.category-drop li a{
+.category-drop li a,
+.category-drop2 li a{
   color: #fff;
 }
 .category .input-section .input {

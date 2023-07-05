@@ -55,4 +55,7 @@ $(document).ready(function(){
     $('.category-section').click(function(){
         $('.category-drop').toggle();
     })
+    $('.country-drop').click(function(){
+        $('.category-drop2').toggle();
+    })
 });
