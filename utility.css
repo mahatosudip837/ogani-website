@@ -1,0 +1,39 @@
+
+.container{
+    padding: 0 5%;
+}
+.container.top-bar-bg{
+    background: var(--light-bg-color);
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background: var(--green-color);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn a{
+    color: #fff;
+}
+.btn2{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #ec0a0a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2 a{
+    color: #fff;
+}
+
+@media screen and (max-width:1084px){
+    .container{
+        padding: 0 10px;
+    }
+}
