@@ -39,12 +39,12 @@ a{
 }
 .fruit-section .owl-prev span{
     position: absolute;
-    top: -43px;
+    top: -50px;
     right: 40px;
 }
 .fruit-section .owl-next span{
     position: absolute;
-    top: -43px;
+    top: -50px;
     right: 5px;
 }
 

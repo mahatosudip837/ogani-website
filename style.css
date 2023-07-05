@@ -370,6 +370,7 @@ nav ul li a.active {
 }
 .latest-p-title h1 {
   font-size: 20px;
+  margin-top: 20px;
 }
 .product-section .product-box {
   display: flex;
