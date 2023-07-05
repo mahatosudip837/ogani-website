@@ -51,6 +51,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.category-section').hover(function(){
-        $('.category-drop').toggle('fast');
+        $('.category-drop').toggle();
     })
 });

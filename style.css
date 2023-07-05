@@ -138,14 +138,15 @@ nav ul li a.active {
   left: 0;
   z-index: 50;
   list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
   gap: 20px;
   width: 100%;
   padding: 20px 0;
   background: var(--green-color);
+  transition: all .5s ease;
+}
+.category-drop li{
+  padding: 10px;
 }
 .category-drop li a{
   color: #fff;
