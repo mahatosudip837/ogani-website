@@ -41,11 +41,13 @@ a{
     position: absolute;
     top: -50px;
     right: 40px;
+    font-size: 20px;
 }
 .fruit-section .owl-next span{
     position: absolute;
     top: -50px;
     right: 5px;
+    font-size: 20px;
 }
 
 @media screen and (max-width:1084px){
