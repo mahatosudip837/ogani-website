@@ -45,12 +45,14 @@ $(document).ready(function(){
         margin:10,
         nav:true,
         dots:false,
+        autoplay:true,
+        autoplayTimeout:1000,
         items:1
     })
 });
 
 $(document).ready(function(){
-    $('.category-section').hover(function(){
+    $('.category-section').click(function(){
         $('.category-drop').toggle();
     })
 });
