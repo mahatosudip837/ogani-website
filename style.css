@@ -125,10 +125,30 @@ nav ul li a.active {
   align-items: center;
   gap: 15px;
   padding-left: 20px;
+  position: relative;
 }
 .category .input-section .category-section i {
   padding-right: 30px;
   border-right: 1px solid #c0bcbc;
+}
+.category .input-section .category-section .category-drop{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 50;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+  background: var(--green-color);
+}
+.category-drop li a{
+  color: #fff;
 }
 .category .input-section .input {
   display: flex;

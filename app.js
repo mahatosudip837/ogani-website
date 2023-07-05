@@ -48,3 +48,9 @@ $(document).ready(function(){
         items:1
     })
 });
+
+$(document).ready(function(){
+    $('.category-section').hover(function(){
+        $('.category-drop').toggle('fast');
+    })
+});
