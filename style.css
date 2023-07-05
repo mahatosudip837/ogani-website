@@ -620,14 +620,13 @@ nav ul li a.active {
         position: absolute;
         top: 0;
         left: 9px;
-        height: 100%;
         width: 30%;
         background: var(--green-color);
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
         z-index: 80;
+    }
+    #fruit-name li{
+      margin: 10px 0;
     }
     #fruit-name li a{
         color: #fff;
