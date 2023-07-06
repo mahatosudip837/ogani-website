@@ -59,3 +59,10 @@ $(document).ready(function(){
         $('.category-drop2').toggle();
     })
 });
+
+window.onscroll = ()=>{
+    $(document).ready(function(){
+        $('.category-drop').hide();
+        $('.category-drop2').hide();
+    });
+}
